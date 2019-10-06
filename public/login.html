@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+      <meta charset="UTF-8">
+      <title>Blog API - GUI</title>
+  </head>
+  <body>
+    <div class="container">
+        <h1 class="header">BLOG-API GUI</h1>
+      <div class="row">
+
+        <form class="form">
+
+            <div class="form-group" id="register_fields">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" aria-describedby="nameHelper" placeholder="Name">
+                <small id="nameHelper" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelper" placeholder="user@blogapi.com">
+                <small id="emailHelper" class="form-text text-muted"></small>
+            </div>
+
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" aria-describedby="passwordHelper">
+                <small id="passwordHelper" class="form-text text-muted">Password is required</small>
+            </div>
+
+            <!-- <button class="form-control" type="button" id="show_password">S</button> -->
+            <button class="btn" type="button" id="register_login">Register</button>
+            <button class="btn btn-primary" type="button" id="btnLogin">Login</button>
+<!-- 
+          <span id="register_fields"> <label>Name</label>
+            <input class="form-control" type="text" id="name"></br></span>
+            <label class="label">Email</label>
+            <input class="form-control" type="text" id="email"></br>
+            <label class="label">Password</label>
+            <input class="form-control" type="password" id="password">
+</br> -->
+            
+        </form>
+    </div>
+  </div>
+  <script src="/app/env.js"></script>
+  <script src="/app/login.js"></script>
+  </body>
+</html>
