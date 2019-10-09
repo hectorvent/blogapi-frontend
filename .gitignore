@@ -1,1 +1,5 @@
-./node_modules/
+node_modules/
+
+# bundle js
+public/app/index.js
+public/app/login.js

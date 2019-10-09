@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server --mode development --port 8082 --hot --host 0.0.0.0 --content-base public/",
-    "start": "webpack -d && node server.js "
+    "start": "webpack -d && node server.js ",
+    "build": "webpack -p"
   },
   "author": "",
   "license": "ISC",

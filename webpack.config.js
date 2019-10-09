@@ -26,7 +26,7 @@ module.exports = {
                     corejs: 3
                   }]
                  ],
-                 plugins: ['@babel/plugin-proposal-class-properties'        ]
+                 plugins: ['@babel/plugin-proposal-class-properties']
                }
         }
       }
