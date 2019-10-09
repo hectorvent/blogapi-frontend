@@ -1,7 +1,7 @@
 BlogApi GUI
 ===========
 
-`SOON` Test it here [Online demo](http://blogapiui.hectorvent.com)
+Test it here [Online demo](http://blogapiui.hectorvent.com)
 
 It's a Vanilla Javascript frontend of [blog-api](https://github.com/hectorvent/blog-api) services. This is only a study pourpose Javascript project, implementing a SPA.
 
